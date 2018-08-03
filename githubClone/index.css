@@ -1,0 +1,56 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	color:#fff;
+	font-family: sans-serif;
+}
+body{
+	background: black;
+}
+#icon{
+	margin-bottom: 10px;
+	font-size: 35px;
+	padding:10px;
+}
+#features,#business,#explore,#price,#market{
+  opacity: 1;
+}
+#features:hover,#business:hover,#explore:hover,#price:hover,#market:hover{ 
+	opacity: 0.6;
+	color:grey;
+}
+
+nav{
+	display: flex;
+	justify-content: center;
+	
+	padding-top: 25px;
+	padding-right: 30px;
+	background: #24292E;	
+	height: 50px;
+}
+a{
+	text-decoration: none;
+}
+#navList>a li{
+	padding: 15px;
+	font-size: 15px;
+	display: inline;	
+}
+#or{
+	color: #fff;
+}
+#search{
+	width: 300px;
+	padding: 7px;
+	margin-left: 50px;
+	border: none;
+	border-radius: 3px;
+	background-color:#3F4448;
+}
+.login{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px;
+	font-weight: bold;
+}
